@@ -143,8 +143,12 @@ img {
 
 .portfolio-works {
 	justify-content: center;
+	align-items: center;
 	padding: 32px;
 }
+
+.portfolio-works-item {
+	margin: 0 auto;
 
 .portfolio-works-item p {
 	display: none;
