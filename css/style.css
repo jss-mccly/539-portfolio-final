@@ -135,20 +135,13 @@ img {
 
 .portfolio-works-container {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 32px;
-}
-
-.portfolio-works {
 	flex-flow: column nowrap;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	padding: 32px;
 }
 
 .portfolio-works-item {
-	max-width: 100%;
 	margin: auto;
 }
 
