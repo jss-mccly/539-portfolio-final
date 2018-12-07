@@ -137,6 +137,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 32px;
 }
 
 .portfolio-works {
@@ -147,7 +148,8 @@ img {
 }
 
 .portfolio-works-item {
-	margin: auto;
+	margin: 32px;
+	padding: 32px;
 }
 
 .portfolio-works-item p {
@@ -186,10 +188,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	.portfolio-works-item p {
 		display: initial;
 		font-size: 140%;
-	}
-	
-	.portfolio-works-container {
-		width: 100%;
 	}
 
 @media only screen and (min-width: 640px) {	
