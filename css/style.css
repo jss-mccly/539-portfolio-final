@@ -112,18 +112,13 @@ img {
 
 .about-works-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.about-works {
-	display: flex;
 	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
 	padding: 32px;
 }
 
 .about-works-item {
-	justify-content: space-around;
 	margin: auto;
 	max-width: 100%;
 }
@@ -142,7 +137,6 @@ img {
 .portfolio-works-container {
 	display: flex;
 	justify-content: center;
-	align-items: stretch;
 }
 
 .portfolio-works {
@@ -152,10 +146,9 @@ img {
 	padding: 32px;
 }
 
-.portfolio-works-item {
-	margin: auto;
-	max-width: 100%;
-}
+.portfolio-works-item p {
+	display: none;
+	}
 
 footer {
 	font-family: Arial, Helvetica, sans-serif;
@@ -165,9 +158,21 @@ footer {
 	text-align: right;
 }
 
-@media only screen and (max-width: 520px) {
-	.portfolio-works-item p {
-		display: none;
+@media only screen and (min-width: 380px) {	
+	h1 {
+		font-size: 280%;
+	}
+	
+	p {
+		font-size: 140%;
+	}
+}
+
+@media only screen and (min-width: 520px) {
+	.portfolio-works-item {
+	display: show;
+	margin: auto;
+	max-width: 95%;
 	}
 
 	.portfolio-works h2 {
@@ -181,20 +186,6 @@ footer {
 	
 	p {
 		font-size: 200%;
-	}
-}
-
-@media only screen and (max-width: 380px) {
-	div.portfolio-works-item p {
-		display: none;
-	}
-	
-	h1 {
-		font-size: 280%;
-	}
-	
-	p {
-		font-size: 140%;
 	}
 }
 
