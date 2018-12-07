@@ -242,9 +242,7 @@ footer {
 	li.highlight{
 		background-color: #F5F5F5;
 	}
-}
 
-@media only screen and (orientation: landscape) {
 	h1 {
 		font-size: 480%;
 	}
