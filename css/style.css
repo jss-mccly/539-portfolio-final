@@ -136,13 +136,11 @@ img {
 .portfolio-works-container {
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: center;
 	align-items: center;
 }
 
 .portfolio-works {
 	justify-content: space-between;
-	align-items: center;
 	padding: 32px;
 }
 
