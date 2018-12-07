@@ -163,28 +163,21 @@ footer {
 	text-align: right;
 }
 
-@media only screen and (min-width: 520px) {	
-	h1 {
-		font-size: 400%;
-	}
-	
-	.portfolio-works h2 {
-		font-size: 300%;
-	}
-	
+@media only screen and (min-width: 520px) {		
 	.portfolio-works-item p {
 		display: inline;
+		font-size: 140%;
 	}
-	
-	p {
-		font-size: 200%;
-	}
-}
 
 @media only screen and (min-width: 640px) {
 	.portfolio-works {
 		display: flex;
 		flex-flow: column nowrap;
+	}
+	
+	.portfolio-works-item p {
+		display: inline;
+		font-size: 210%;
 	}
 
 	.about-works-container {
@@ -236,7 +229,7 @@ footer {
 	}
 
 	h1 {
-		font-size: 400%;
+		font-size: 420%;
 	}
 	
 	.homepage {
@@ -244,11 +237,11 @@ footer {
 	}
 	
 	h2 {
-		font-size: 300%;
+		font-size: 280%;
 	}
 
 	p {
-		font-size: 200%;
+		font-size: 210%;
 	}
 	
 	.homepage-2 {
