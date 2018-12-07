@@ -135,12 +135,13 @@ img {
 
 .portfolio-works-container {
 	display: flex;
-	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
 }
 
 .portfolio-works {
+	display: flex;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	padding: 32px;
