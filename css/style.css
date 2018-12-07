@@ -106,7 +106,8 @@ p {
 }
 
 img {
-	height: auto;
+	max-height: 100%;
+	width: auto;
 }
 
 .about-works-container {
@@ -119,7 +120,6 @@ img {
 
 .about-works-item {
 	margin: auto;
-	max-width: 100%;
 }
 
 .content-container {
@@ -148,7 +148,7 @@ img {
 }
 
 .portfolio-works-item {
-	margin: 0 auto;
+	margin: auto;
 }
 
 .portfolio-works-item p {
