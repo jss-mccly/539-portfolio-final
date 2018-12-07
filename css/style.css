@@ -144,11 +144,11 @@ img {
 	justify-content: center;
 	align-items: center;
 	padding: 32px;
+	width: 100%;
 }
 
 .portfolio-works-item {
-	margin: auto;
-	max-width: 100%;
+	margin: 0 auto;
 }
 
 .portfolio-works-item p {
