@@ -141,11 +141,12 @@ img {
 .portfolio-works {
 	display: flex;
 	flex-flow: column nowrap;
-	padding: 32px;	
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px;
 }
 
 .portfolio-works-item {
-	margin: auto;
 	max-width: 100%
 	}
 
