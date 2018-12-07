@@ -106,7 +106,8 @@ p {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
+	height: auto;
 }
 
 .about-works-container {
@@ -190,7 +191,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 
 	.about-works-container {
 		flex-flow: row nowrap;
-		width: 100%;
 	}
 
 	ul {
