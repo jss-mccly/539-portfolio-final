@@ -195,7 +195,7 @@ footer {
 		flex-flow: column nowrap;
 	}
 
-	.about-works {
+	.about-works-container {
 		flex-flow: row nowrap;
 		width: 100%;
 	}
