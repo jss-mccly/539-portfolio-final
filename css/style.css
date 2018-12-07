@@ -183,7 +183,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 
 @media only screen and (min-width: 520px) {		
-	portfolio-works-item p {
+	.portfolio-works-item p {
 		display: initial;
 		font-size: 140%;
 	}
@@ -193,7 +193,7 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	}
 
 @media only screen and (min-width: 640px) {	
-	portfolio-works-item p {
+	.portfolio-works-item p {
 		font-size: 210%;
 	}
 
