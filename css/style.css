@@ -137,7 +137,7 @@ img {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .portfolio-works {
@@ -184,11 +184,6 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	}
 
 @media only screen and (min-width: 640px) {	
-	.portfolio-works {
-		align-items: center;
-		width: 100%;
-	}
-	
 	.portfolio-works-item p {
 		display: inline;
 		font-size: 210%;
