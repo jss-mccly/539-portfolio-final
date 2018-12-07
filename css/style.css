@@ -148,8 +148,8 @@ img {
 }
 
 .portfolio-works-item {
-	margin: 32px;
-	padding: 32px;
+	max-width: 100%;
+	margin: auto;
 }
 
 .portfolio-works-item p {
