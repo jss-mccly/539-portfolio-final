@@ -107,7 +107,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	max-width: 95%;
 }
 
 .about-works-container {
@@ -142,13 +142,12 @@ img {
 .portfolio-works {
 	display: flex;
 	flex-flow: column nowrap;
-	padding: 32px;
-	
+	padding: 32px;	
 }
 
 .portfolio-works-item {
 	margin: auto;
-	max-width: 95%;
+	max-width: 100%
 	}
 
 .portfolio-works-item p {
@@ -163,6 +162,28 @@ footer {
 	text-align: right;
 }
 
+.skip {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	height: 1px;
+	width: 1px;
+	text-align: left;
+	overflow: hidden;
+	font-family: 'Courier New', Courier, monospace;
+	color: #A90000;
+}
+
+a.skip:active,
+a.skip:focus,
+a.skip:hover {
+	left: 12px;
+	top: 0;
+	width: auto;
+	height: auto;
+	overflow: visible;
+}
+
 @media only screen and (min-width: 520px) {		
 	.portfolio-works-item p {
 		display: inline;
@@ -173,6 +194,11 @@ footer {
 	.portfolio-works {
 		display: flex;
 		flex-flow: column nowrap;
+		padding: 32px;
+	}
+	
+	.portfolio-works-item {
+		margin: auto;
 	}
 	
 	.portfolio-works-item p {
@@ -251,26 +277,4 @@ footer {
 	.footer {
 		font-size: 110%;
 	}
-}
-
-.skip {
-	position: absolute;
-	top: -1000px;
-	left: -1000px;
-	height: 1px;
-	width: 1px;
-	text-align: left;
-	overflow: hidden;
-	font-family: 'Courier New', Courier, monospace;
-	color: #A90000;
-}
-    
-a.skip:active,
-a.skip:focus,
-a.skip:hover {
-	left: 12px;
-	top: 0;
-	width: auto;
-	height: auto;
-	overflow: visible;
 }
