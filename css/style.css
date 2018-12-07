@@ -137,10 +137,11 @@ img {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	justify-content: center;
 }
 
 .portfolio-works {
-	justify-content: space-between;
+	justify-content: center;
 	padding: 32px;
 }
 
