@@ -27,7 +27,7 @@
 <html>
 <body>
 <div>
-	<button onclick="typeWriter()">Email me</button>
+	<button title="email me at jssmccly@umich.edu" onclick="typeWriter()">Email me</button>
 	<p id="typing"></p>
 	<script>
 	var i = 0;
@@ -35,6 +35,7 @@
 	var speed = 50;
 
 	function typeWriter() {
+	  button.style.visibility = "hidden";
 	  if (i < txt.length) {
 	    document.getElementById("typing").innerHTML += txt.charAt(i);
 	    i++;
