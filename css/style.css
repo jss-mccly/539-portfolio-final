@@ -110,6 +110,10 @@ img {
 	height: auto;
 }
 
+button {
+	margin: 32px;
+}
+
 .about-works-container {
 	display: flex;
 	flex-flow: column nowrap;
