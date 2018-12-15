@@ -34,11 +34,11 @@
 	var txt = 'jssmccly@umich.edu';
 	var speed = 50;
 	function typeWriter() {
+	  button.style.visibility = "hidden";
 	  if (i < txt.length) {
 	    document.getElementById("typing").innerHTML += txt.charAt(i);
 	    i++;
 	    setTimeout(typeWriter, speed);
-	    button.style.visibility = "hidden";
 	  }
 	}
 	</script>
